@@ -1,5 +1,13 @@
 h1{
-    font-size : 60px;
-    font-style: italic ;
+    font-size : 30px;
+    font-style: Arial ;
 
+}
+c1{
+    font-size: 15px;
+    font-style: Times New Roman;
+}
+h2{
+    font-size: 20;
+    font-style: Georgia;
 }
