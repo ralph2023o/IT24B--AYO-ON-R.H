@@ -1,5 +1,5 @@
 body{
-    background-image: url("PHOTOS/BackGround\ 1.jpg");
+  background-color: rgb(162,202,113);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -75,3 +75,32 @@ h1{
   c1{
     font-size: 20px;
   }
+
+
+.content-container {
+    max-width: 600px; /* Set a maximum width */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Space inside the container */
+    border: 1px solid #000; /* Border for the container */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text inside the container */
+}
+
+.content-image {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 15px; /* Space above the image */
+    border-radius: 5px; /* Optional: rounded corners for the image */
+}
+  .text-box {
+    border: 1px solid #000; /* Black border */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Center the box with auto margins */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Set a maximum width */
+    text-align: center; /* Center text inside the box */
+}
