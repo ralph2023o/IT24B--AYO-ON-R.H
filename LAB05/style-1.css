@@ -1,5 +1,5 @@
 body{
-    background-image: url("PHOTOS/back.jpg");
+  background-color: rgb(162,202,113);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -75,3 +75,20 @@ h1{
   c1{
     font-size: 20px;
   }
+  .services-list {
+    display: flex; /* Arrange items in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center items */
+    margin: 20px 0; /* Space above and below the list */
+}
+
+.service-item {
+    margin: 15px; /* Space between items */
+    text-align: center; /* Center text */
+}
+
+.service-item img {
+    width: 150px; /* Set a width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+}
